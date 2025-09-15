@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Example {
+    public static void main(String[] args) {
+        // Create a scanner object to read input
+        Scanner scanner = new Scanner(System.in);
+        
+        // Ask for user input
+        System.out.print("Enter the first number: ");
+       
+        // Close the scanner
+        scanner.close();
+    }
+}
